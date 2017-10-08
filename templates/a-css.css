@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: url(http://1tlmo92ipsnm1fchmn35l7xz-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/IMG_9299.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: 0 6%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 67px;
+    margin-bottom: 25px;
+}
+
+
+/* chart */
+
+.block {
+    padding: 0 4%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+
+}
+
+.flexbox {
+    border-top: 1px solid white;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0 3% 0;
+}
+
+.vendor-wrapper {
+    justify-content: left;
+    width: calc((100% - 8%)/4);
+    padding: 0% 2% 2% 2%;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 13px;
+    background: rgba(247, 247, 247, .95);
+    text-align: center;
+    position: relative;
+}
+
+.vendor-wrapper:first-child {
+    margin-left: 0;
+}
+
+.vendor-wrapper:last-child {
+    margin-right: 0;
+}
+
+
+.vendor-photoframe {
+    width: 100%;
+    overflow: hidden;
+}
+
+.vendor-photo {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+}
+
+.vendor-wrapper p {
+    text-align: left;
+    position: relative;
+}
+
+
+.emphasis {
+    font-weight: 600;
+    display: block;
+}
+
+.button-margin {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.vendor-book-button {
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    width: 83%;
+    text-align: center;
+    background-color: #1980ff;
+    border: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: ease .25s;
+    -webkit-transition: ease .25s;
+    position: absolute;
+    bottom: 20px;
+}
+
+.vendor-book-button:hover {
+    background-color: #0e59b5;
+}
+
+
+.footer {
+    font-size: 10px;
+    color: #fff;
+    text-align: right;
+    margin-right: 2%
+}
