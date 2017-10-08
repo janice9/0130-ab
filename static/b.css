@@ -1,0 +1,137 @@
+body{
+	color:white;
+	background:black;
+}
+
+
+	
+img.back{
+	width:100%;
+	height:auto;
+	position:fixed;
+	z-index: -1;
+	opacity:.9;
+}
+
+header {
+	padding-left: 40px;
+	padding-top: 20px;
+	text-align: center;
+}
+/* Feel free to modify anything in this file.*/
+
+/* ---header---- */
+h1{
+	font-size:70px;
+	font-weight:900;
+	color:white;
+}
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:90vw;
+	margin-top:50px;
+	border-top:1px solid white;
+	padding-top:100px;
+	
+}
+
+.vendor-wrapper {
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	padding:50px;
+	height:auto;
+	justify-content: center;
+}
+
+.overflow{
+	margin:0 auto;
+	display:block;
+	width:520px;
+	height:520px;
+	overflow:visible;
+	position:relative;
+	border-radius:270px;
+	padding:80px;
+	opacity:0.95;
+	background-color:white;
+}
+
+.vendor-photo{
+	margin:0 auto;
+	position:absolute;
+	display:block;
+	width:360px;
+	height:360px;
+	object-fit: contain;
+}
+
+/*----------button------*/
+button.vendor-book-button{
+	opacity:0;
+	transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button.vendor-book-button, button.vendor-book-button:hover, button.vendor-book-button:active{
+	margin-left:200px;
+	margin-top:200px;
+	background:white;
+	border:2px solid black ;
+	border-radius:5px;
+	padding:6px;
+	color:black;
+	position:absolute;
+	z-index:2;
+}
+
+button.vendor-book-button:hover{
+	box-shadow: white 3px 3px;
+}
+
+.vendor-wrapper:hover button.vendor-book-button{
+	opacity:1;
+}
+button.vendor-book-button:active:{
+	margin-left:3px;
+	margin-top:3px;
+}
+
+/*------text-------*/
+p{
+	color:white;
+	background:black;
+	width:520px;
+	height:520px;
+	border-radius: 300px;
+	text-align:center;
+	padding:90px;
+	padding-top:70px;
+	position:absolute;
+	opacity:0;
+}
+
+.vendoer-wrapper p{
+	opacity:0;
+}
+
+.show{
+	opacity:.9;
+}
+
+footer{
+	margin-top:20vh;
+}
+h4.colophon{
+	font-size:10px;
+	opacity:1;
+	width:auto;
+	height:auto;
+	margin-left:20px;
+}
+
